@@ -345,7 +345,7 @@ fn main() {
     // There is only one binding for each resource
     // so if you assign data to another variable
     // the original can't access the data
-    let vect1 = vec![1, 2, 3];
+    let vect1 = vec![1, 2, 3,4];
     let vect2 = vect1;
     // error: use of moved value: `vect1`
     // println!("vect1[0] : {}", vect1[0]);
