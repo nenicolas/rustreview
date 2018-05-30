@@ -1,2 +1,2 @@
 # rustreview
-Learning rust one println at a time
+Learning rust one println! at a time
