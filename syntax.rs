@@ -338,14 +338,14 @@ fn main() {
 
     // We can access variables outside the closure
     let num_ten = 10;
-    let add_10 = |x: i32| x + num_teen;
+    let add_10 = |x: i32| x + num_ten;
     println!("5 + 10 = {}", add_10(5));
 
     // ---------- OWNERSHIP / POINTERS ----------
     // There is only one binding for each resource
     // so if you assign data to another variable
     // the original can't access the data
-    let vect1 = vec![1, 2, 3];
+    let vect1 = vec![1, 2, 3, 4, 5];
     let vect2 = vect1;
     // error: use of moved value: `vect1`
     // println!("vect1[0] : {}", vect1[0]);

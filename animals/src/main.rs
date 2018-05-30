@@ -49,7 +49,7 @@ impl Sheep {
         } else {
             println!("{} gets a haircut!", self.name); //I also don't understand why name is not name() 
                                                         //like the above println! line
-
+                                                        //I checked both syntax works
             self.naked = true;
         }
     }
